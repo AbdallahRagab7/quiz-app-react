@@ -63,7 +63,7 @@ export default [
     id: 'q7',
     text: 'Which approach can NOT be used to render content conditionally?',
     answers: [
-      'Using a the #if template syntax.',
+      'Using the #if template syntax.',
       'Using a ternary operator.',
       'Using the && operator.',
       'Using an if-else statement.',
