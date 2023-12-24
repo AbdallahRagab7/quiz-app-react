@@ -6,7 +6,9 @@ import Summary from './Summary.jsx';
 
 export default function Quiz() {
   const [userAnswers, setUserAnswers] = useState([]);
-
+  //derive active question based on user's answers 
+  // in case NO answers : length will be zero , so Q1 will be displayed
+  // in case answer Q1 : length will be 1 , so Q2 will be displayed
   const activeQuestionIndex = userAnswers.length;
   const quizIsComplete = activeQuestionIndex === QUESTIONS.length;
 

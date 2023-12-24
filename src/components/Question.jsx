@@ -26,6 +26,7 @@ export default function Question({ index, onSelectAnswer, onSkipAnswer }) {
       isCorrect: null,
     });
 
+    
     setTimeout(() => {
       setAnswer({
         selectedAnswer: answer,
